@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    font-size: 30px;
+    color: cornflowerblue;
+}
+main{
+    background-image: url("sport.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.blok{
+    float: left;
+    width: 26%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 5%;
+    margin-top: 40px;
+    padding: 10px;
+}
+#info{
+    text-align: center;
+}
+#wynik{
+    font-size: 30px;
+    color: crimson;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+}
+button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+input{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
